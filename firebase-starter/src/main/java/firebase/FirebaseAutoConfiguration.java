@@ -42,7 +42,7 @@ public class FirebaseAutoConfiguration implements DisposableBean {
     // Bean
     // ------------------------------------------------------------------------
     /**
-     * FirebaseAuthクライアント.
+     * FirebaseAuth
      */
     @ConditionalOnMissingBean
     @Bean
@@ -52,7 +52,7 @@ public class FirebaseAutoConfiguration implements DisposableBean {
     }
 
     /**
-     * FirebaseDatabaseクライアント.
+     * FirebaseDatabase
      */
     @ConditionalOnMissingBean
     @Bean
@@ -64,7 +64,7 @@ public class FirebaseAutoConfiguration implements DisposableBean {
     }
 
     /**
-     * FirebaseStorageクライアント.
+     * FirebaseStorage
      */
     @ConditionalOnMissingBean
     @Bean
