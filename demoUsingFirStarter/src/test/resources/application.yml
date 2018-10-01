@@ -1,0 +1,6 @@
+#firebase confi
+---
+firebase:
+  database-url:  https://local-dr.firebaseio.com
+  file-path: org/google/firebase.json
+  bucket: local-dr.appspot.com

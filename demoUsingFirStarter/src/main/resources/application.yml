@@ -1,0 +1,6 @@
+#firebase config
+firebase:
+  bucket: drfir-dev-apricot.appspot.com
+  database-url:  https://drfir-dev-apricot.firebaseio.com
+  file-path: org/google/firebase.json
+

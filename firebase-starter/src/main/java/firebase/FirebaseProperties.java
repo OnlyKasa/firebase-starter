@@ -12,11 +12,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class FirebaseProperties {
 
 
-    private String filePath;
+    private String filePath ="E:/WEBRTC/firebase-starter/demoUsingFirStarter/src/test/resources/org.google/firebase.json";
 
 
-    private String databaseUrl = "";
+    private String databaseUrl = "https://local-dr.firebaseio.com";
 
 
-    private String bucket = "";
+    private String bucket = "local-dr.appspot.com";
 }
